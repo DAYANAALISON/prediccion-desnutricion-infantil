@@ -1,10 +1,10 @@
-# 🏥 API de Predicción de Desnutrición Infantil
+#  API de Predicción de Desnutrición Infantil
 
 Sistema de predicción de riesgo de desnutrición en niños menores de 5 años usando Machine Learning (Random Forest) y desplegado con FastAPI + Docker.
 
 ---
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 1. [Descripción del Proyecto](#descripción-del-proyecto)
 2. [Estructura del Proyecto](#estructura-del-proyecto)
@@ -18,7 +18,7 @@ Sistema de predicción de riesgo de desnutrición en niños menores de 5 años u
 
 ---
 
-## 📖 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto predice el riesgo de desnutrición infantil basándose en variables socioeconómicas, demográficas y de salud. Utiliza un modelo de **Random Forest** entrenado con datos sintéticos que simulan condiciones reales de Perú.
 
@@ -39,7 +39,7 @@ Este proyecto predice el riesgo de desnutrición infantil basándose en variable
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 ```
 PREDICCION_DESNUTRITIVA/
 │
@@ -52,7 +52,7 @@ PREDICCION_DESNUTRITIVA/
 │   └── scaler.pkl                  # Escalador de características
 │
 ├── datos/
-│   └── raw/                        # Datos crudos (opcional)
+│   └── raw/                        # Datos crudos
 │
 ├── Dockerfile                      # Configuración de Docker
 ├── .dockerignore                   # Archivos excluidos de Docker
@@ -61,7 +61,7 @@ PREDICCION_DESNUTRITIVA/
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 | Tecnología | Versión | Uso |
 |------------|---------|-----|
@@ -74,7 +74,7 @@ PREDICCION_DESNUTRITIVA/
 
 ---
 
-## 🚀 Instalación y Configuración
+##  Instalación y Configuración
 
 ### **Opción 1: Instalación Local**
 
@@ -190,7 +190,7 @@ http://localhost:8000/docs
 
 ---
 
-## 🧪 Ejemplo de Predicción
+##  Ejemplo de Predicción
 
 ### **Usando cURL:**
 ```bash
